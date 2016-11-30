@@ -30,10 +30,14 @@ console.log(grades);
 //Output what is the lowest grade
   //Sort through each number
 
-  //keep the number that is lowest
-  //output that number to the console
 
+  //keep the number that is lowest
+  var lowestGrade = Math.min.apply(null, scores);
+  //output that number to the console
+  console.log("The lowest grade is " + lowestGrade);
 //Output what is the highest grade
   //Sort through each number
   //keep the number that is highest
+  var highestGrade = Math.max.apply(null, scores);
   //output that number to the console
+  console.log("The highest grade is " + highestGrade);
